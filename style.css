@@ -1,0 +1,200 @@
+body{
+    margin: 0px;
+    border: 0px;
+    background-color: #020913;   
+    position: relative;
+    
+}
+
+.home{
+    background-image:url("1.jpg");
+    /* position: relative; */
+    background-size: cover; /* Adjust how the image fits within the div */
+    background-position: center; /* Position the image at the center of the div */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    /* Add other styling as needed */
+    width: 100%; /* Set the width of the div */
+    height: 100vh; /* Set the height of the div */
+
+    
+}
+.navbar{
+    margin-top: 50px;
+}
+/* .navbar-nav .nav-link{
+    padding-left: 60px;
+    padding-right: 60px;
+} */
+.navbar-nav .nav-item {
+    margin-right: 60px; /* Adjust the margin as needed */
+   /* font-weight: 400; font-style: normal; color: rgb(255, 255, 255); text-decoration: none; */
+  }
+  .navbar-nav #navitemcontact {
+    margin-right: 250px; /* Adjust the margin as needed */
+  }
+.nav-link{
+    font-family: 'Arimo', sans-serif;
+    font-weight: 400; font-style: normal; color:white; text-decoration: none; transition:transform 0.3s;
+}
+.nav-item>a:hover{
+    color:rgb(152, 232, 205);
+    transform: scale(1.1);
+
+}
+.logo{
+    height:40px;
+    margin-left: 50px;
+}
+@media (max-width: 768px) {
+    .home{
+        background-size: contain;
+        height: 100vh; /* Resize image to fit within the div */
+        /* Add other styling as needed */
+    }
+    .container{
+        width: 100%;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    
+}
+
+/* welcome note starts */
+
+.welcomeNote{
+    display: flex;
+    height: 82vh;
+    position: absolute;
+    align-items: center;
+    margin-left: 50px;
+    /* justify-content: center; */  
+}
+#noteGreeting{
+    font-size: 65px;
+    color: white;
+    font-family: 'Archivo', sans-serif;
+    font-weight: 100;
+}
+.name{
+    font-size: 65px;
+    color: #98E8CD;
+    font-family: 'Archivo', sans-serif;
+}
+#quote{
+    font-size: 20px;
+    color: white;
+    font-family: 'Comic Neue', cursive;
+}
+/* About section starts */
+#about{
+    margin-left: 50px;
+    margin-right: 100px;
+    margin-bottom: 250px;
+}
+#about p{
+    margin-top: 200px;
+    width: 70%;
+}
+#about h2{
+    font-size: 50px;
+    color:#98E8CD;
+    font-family: 'Archivo', sans-serif;
+}
+#about p{
+    font-size: 20px;
+    font-family: 'Comic Neue', cursive;
+    color: white;
+}
+#about img{
+    float: right;
+    height: 200px;
+    width: 200px;
+}
+/* CREDENTIAL */
+#credentials{
+    margin-bottom: 20px;
+    
+    background-image:url("assets/3.jpg");
+    /* position: relative; */
+    background-size:cover; /* Adjust how the image fits within the div */
+    background-position: center; /* Position the image at the center of the div */
+    background-repeat: no-repeat;
+}
+#credentials h2{
+    font-size: 50px;
+    color:white;
+    font-family: 'Archivo', sans-serif;
+    margin-left: 50px;
+}
+.container{
+    display: grid;
+    grid-template-columns: 200px 400px;
+    grid-template-rows: 200px 200px;
+    gap: 40px;
+    width: 50%;
+    margin-top: 70px;
+    margin-right: 100px;
+    
+}
+.container .head{
+    font-size: 34px!important;
+    color: #98E8CD!important;
+    font-family: 'Archivo', sans-serif!important;
+}
+.item{
+    font-size:24px ;
+    font-family: 'Comic Neue', cursive;
+    color: white;
+    
+}
+/* CONTACT STARTS */
+#contact{
+    padding-bottom: 50px;
+    margin-top: 120px;
+    background-image:url("assets/4.jpg");
+    /* position: relative; */
+    background-size:cover; /* Adjust how the image fits within the div */
+    background-position: center; /* Position the image at the center of the div */
+    background-repeat: no-repeat;
+}
+#contact h2{
+    
+    font-size: 50px;
+    color:white;
+    font-family: 'Archivo', sans-serif;
+    margin-left: 50px;
+}
+h3{
+    margin-top: 100px;
+}
+
+.mail{
+    
+    font-size: 30px;
+    color:#98E8CD;
+    font-family: 'Archivo', sans-serif;
+    margin-left: 50px; 
+    text-decoration: none;
+}
+.footer{
+    margin-top: 150px;
+}
+.footer a{
+
+    display: inline-block;
+    margin-right: 70px;
+    margin-left: 50px;
+    font-size: 20px;
+    font-family: 'Arimo', sans-serif;
+    font-weight: 400; font-style: normal; color:white;  
+    text-decoration: none;
+}
+/* .mail:hover{
+    color:rgb(189, 23, 255);
+    transform: scale(1.1);
+} */
+.footer a:hover{
+    
+        color:rgb(255, 23, 174);
+        transform: scale(1.1);
+}
